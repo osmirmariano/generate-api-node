@@ -1,0 +1,25 @@
+{
+  "name": "api-tamplete-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create": "bin/generate.js",
+    "controller": "bin/c_generate.js",
+    "model": "bin/m_generate.js",
+    "router": "bin/r_generate.js"
+  },
+  "keywords": [],
+  "author": "Osmir Custódio Mariano",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "fs": "0.0.1-security"
+  }
+}
