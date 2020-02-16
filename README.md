@@ -3,6 +3,7 @@
 **Biblioteca pra gerar projeto para api em nodejs com banco de dados mongodb
 
 ## Comandos para criar respectivos componentes para API:
+Para usar api-generate-node, você primeiro deve criar uma pasta aonde seu projeto vai ficar, após isso instale o plugin que pode ser encontrado no link https://www.npmjs.com/package/api-tamplete-node. Com a lib instalada ai você no mesmo diretório acione o terminal e execute os comando abaixo para usar todos os recursos necessários da lib.
 > * **create** -n "Nome do projeto da api"
 > * **controller** -a "Mesmo nome do projeto criado anteriormente" -n "Nome do controller"
 > * **model** -a "Mesmo nome do projeto criado anteriormente" -n "Nome do model"
