@@ -12,6 +12,28 @@
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Estrtura do diretório
+A estrutura do diretório criado é a descrita abaixo
+- src
+    - app
+        - constants
+        - controllers
+        - helpers
+        - middlewares
+        - models
+            - index.js
+        - routes
+            - index.js
+        - utils
+        - index.js
+    - config
+        - config.js
+        - database.js
+- app.js
+- LICENSE.md
+- package.json
+- README.md
+
 ## Observação
 * Criador: **Osmir Custódio Mariano** - osmirmarianocc@gmail.com
 * Link do npm https://www.npmjs.com/package/api-tamplete-node
