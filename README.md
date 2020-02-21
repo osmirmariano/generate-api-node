@@ -33,7 +33,7 @@ A estrutura do diretório criado é a descrita abaixo
         - routes
             - index.js
         - utils
-        - test
+        - tests
         - index.js
     - config
         - config.js
