@@ -5,7 +5,6 @@ var lib = require('../lib/routes.js');
  
 program
   .description('Programa para criar rotas')
-  .option('-a, --api <nome>', 'Nome da aplicação')
   .option('-n, --nome <nome>', 'Nome da rota')
   .parse(process.argv);
  

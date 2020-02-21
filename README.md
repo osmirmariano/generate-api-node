@@ -1,17 +1,24 @@
 # generate-api-node
 
-**Biblioteca pra gerar projeto para api em nodejs com banco de dados mongodb
+** Biblioteca pra gerar projeto para api em nodejs com banco de dados mongodb
 
 ## Comandos para criar respectivos componentes para API:
-Para usar api-generate-node, você primeiro deve criar uma pasta aonde seu projeto vai ficar, após isso instale o plugin que pode ser encontrado no link https://www.npmjs.com/package/api-tamplete-node. Com a lib instalada ai você no mesmo diretório acione o terminal e execute os comando abaixo para usar todos os recursos necessários da lib.
+Inicialmente você deve installar em seu computador com o seguinte comando:
+```javascript
+    npm i -g api-tamplete-node
+```
+que vai ser instalado de forma globalmente.
+
+Para usar api-generate-node, você primeiro deve navegar até o diretório que vai querer gerar o projeto, dentro do diretório, por exemplo, Documents. Dentro do diretório basta rodar o comando **create**, como descrito abaixo que irá criar uma pasta com o nome que você forneceu e dentro dela vai ter toda a estrutura da API.
+
 > * **create** -n "Nome do projeto da api"
-> * **controller** -a "Mesmo nome do projeto criado anteriormente" -n "Nome do controller"
-> * **model** -a "Mesmo nome do projeto criado anteriormente" -n "Nome do model"
-> * **router** -a "Mesmo nome do projeto criado anteriormente" -n "Nome da rota"
+> * **controller** -n "Nome do controller"
+> * **model** -n "Nome do model"
+> * **router** -n "Nome da rota"
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Este projeto é licensiado sobre MIT License - [LICENSE.md](LICENSE.md) para mais detalhes vide arquivo
 
 ## Estrtura do diretório
 A estrutura do diretório criado é a descrita abaixo
@@ -26,6 +33,7 @@ A estrutura do diretório criado é a descrita abaixo
         - routes
             - index.js
         - utils
+        - test
         - index.js
     - config
         - config.js
