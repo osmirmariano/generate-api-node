@@ -1,6 +1,6 @@
 #!/usr/bin/env node
  
-var lib = require('../lib/routes.js');
+var lib = require('../lib/routers.js');
     program = require('commander');
  
 program
