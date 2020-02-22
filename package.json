@@ -1,6 +1,6 @@
 {
   "name": "api-tamplete-node",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "./lib/index.js",
   "directories": {
@@ -13,7 +13,8 @@
     "create": "bin/generate.js",
     "controller": "bin/c_generate.js",
     "model": "bin/m_generate.js",
-    "router": "bin/r_generate.js"
+    "router": "bin/r_generate.js",
+    "middleware": "bin/mi_generate.js"
   },
   "keywords": [],
   "author": "Osmir Custódio Mariano",

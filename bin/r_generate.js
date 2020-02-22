@@ -8,4 +8,4 @@ program
   .option('-n, --nome <nome>', 'Nome da rota')
   .parse(process.argv);
  
-  lib(program.nome, program.api);
+  lib(program.nome);

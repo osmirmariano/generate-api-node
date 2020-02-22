@@ -15,6 +15,7 @@ Para usar api-generate-node, você primeiro deve navegar até o diretório que v
 > * **controller** -n "Nome do controller"
 > * **model** -n "Nome do model"
 > * **router** -n "Nome da rota"
+> * **middleware** -n "Nome do middleware"
 
 ## License
 
