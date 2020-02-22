@@ -17,6 +17,9 @@ Para usar api-generate-node, você primeiro deve navegar até o diretório que v
 > * **router** -n "Nome da rota"
 > * **middleware** -n "Nome do middleware"
 
+### Informações
+O projeto já vem com alguns componentes instalados, sendo eles JWT para sistema de login com autentição via token e com serverless, sendo que esse é utilizado para fazer deploy no servidor, por padrão é utilizado a AWS com lambdas para fazer deploy.
+
 ## License
 
 Este projeto é licensiado sobre MIT License - [LICENSE.md](LICENSE.md) para mais detalhes vide arquivo
