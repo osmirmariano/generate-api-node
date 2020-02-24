@@ -46,6 +46,7 @@ A estrutura do diretório criado é a descrita abaixo
 - LICENSE.md
 - package.json
 - README.md
+- serverless.yml
 
 ## Observação
 * Criador: **Osmir Custódio Mariano** - osmirmarianocc@gmail.com
