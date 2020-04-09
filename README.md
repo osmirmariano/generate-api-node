@@ -16,6 +16,7 @@ Para usar api-generate-node, você primeiro deve navegar até o diretório que v
 > * **model** -n "Nome do model"
 > * **router** -n "Nome da rota"
 > * **middleware** -n "Nome do middleware"
+
 Por enquanto os comando de criar controllers, models, router e middleware só funciona para projeto mongo, mas estamos trabalhando em novos comandos para estutura com sequelize.
 
 ### Informações
@@ -50,7 +51,7 @@ A estrutura do diretório criado é a descrita abaixo
 - serverless.yml
 - .env
 
-## Estrtura do diretório de um projeto com mysql
+## Estrutura do diretório de um projeto com mysql
 A estrutura do diretório criado é a descrita abaixo
 - src
     - app
