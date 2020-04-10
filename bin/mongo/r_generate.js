@@ -1,6 +1,6 @@
 #!/usr/bin/env node
  
-var lib = require('../lib/routers.js');
+var lib = require('../../lib/routers.js');
     program = require('commander');
  
 program
@@ -8,4 +8,7 @@ program
   .option('-n, --nome <nome>', 'Nome da rota')
   .parse(process.argv);
  
-  lib(program.nome);
+  if(program.rawArgs.length <= 3)
+    throw Error("Comando inválido, está faltando uma tag")
+  else
+    lib(program.nome);

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var lib = require('../lib/index.js');
+var lib = require('../../lib/index.js');
     program = require('commander');
  
 program
@@ -7,9 +7,8 @@ program
   .option('-n, --nome <nome>', 'Nome da aplicação')
   .parse(process.argv);
   
-  if(program.rawArgs.length <= 3) {
+  if(program.rawArgs.length <= 3)
     throw Error("Comando inválido, está faltando uma tag")
-  } else {
+  else
     lib(program.nome);
-  }
   
