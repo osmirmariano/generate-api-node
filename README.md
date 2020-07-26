@@ -26,7 +26,7 @@ O projeto já vem com alguns componentes instalados, sendo eles JWT para sistema
 
 Este projeto é licensiado sobre MIT License - [LICENSE.md](LICENSE.md) para mais detalhes vide arquivo
 
-## Estrtura do diretório de um projeto com mongo
+## Estrutura do diretório de um projeto com mongo
 A estrutura do diretório criado é a descrita abaixo
 - src
     - app
@@ -82,4 +82,4 @@ A estrutura do diretório criado é a descrita abaixo
 ## Observação
 * Criador: **Osmir Custódio Mariano** - osmirmarianocc@gmail.com
 * Link do npm https://www.npmjs.com/package/api-tamplete-node
-* Aplicação em desenvolvimento o modulo do sequelize, mas o do mongo está funcionando normal
+* Módulo com sequelize ainda está na fase beta, mas módulo do Mongo está na fase oficial
